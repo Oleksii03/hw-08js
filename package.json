@@ -5,19 +5,22 @@
   "homepage": "https://Oleksii03.github.io/hw-08js",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hw-08js/"
+    "build": "parcel build src/*.html --public-url/hw-08js/"
   },
   "keywords": [],
   "author": "Oleksii03",
   "license": "ISC",
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
     "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead"
 }
