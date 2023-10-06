@@ -7,10 +7,6 @@
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /hw-08js/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Oleksii03/hw-08js.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
